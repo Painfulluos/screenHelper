@@ -1,4 +1,4 @@
-from tkinter import Tk, Menu, Button, HORIZONTAL, Label, PhotoImage
+from tkinter import Tk, Menu, Button, HORIZONTAL, Label, Entry, PhotoImage
 from tkinter.ttk import Progressbar
 from pynput import keyboard
 
@@ -38,18 +38,28 @@ class PyScreenHelper(Tk):
 		self.configure(menu=self.menu_bar)
 
 	def widgets(self):
+		self.label_screen_caption_text = Label(self, text="Инициалы:", font=("Arial Bold", 12))
+		self.label_screen_caption_text.grid(row=0,column=0)
+
+		self.entry_screen_caption = Entry(self)
+		self.entry_screen_caption.grid(row=0, column=1)
+
 		self.label_save_path_text = Label(self, text="Путь сохранения изображения:", font=("Arial Bold", 12))
-		self.label_save_path_text.grid(row=0,column=0)
+		self.label_save_path_text.grid(row=1,column=0)
 
 		self.label_save_path = Label(self, text="", font=("Arial Bold", 12))
-		self.label_save_path.grid(row=1,column=0)
+		self.label_save_path.grid(row=2,column=0)
+
 		InterfaceFuncs().change_save_path_label(self.label_save_path)
 
 		self.button_change_save_path = Button(self, text="Изменить путь", command=lambda:InterfaceFuncs().change_save_path(self.label_save_path))
-		self.button_change_save_path.grid(row=2, column=0)
-
-		self.button_change_save_path = Button(self, text="Сделать скрин", command=lambda:InterfaceFuncs().make_screen(self))
 		self.button_change_save_path.grid(row=3, column=0)
+
+		self.button_save_settings = Button(self, text="Сохранить настройки", command=lambda:InterfaceFuncs().save_settings(self.entry_screen_caption))
+		self.button_save_settings.grid(row=4, column=0)
+		InterfaceFuncs().change_screen_caption_entry(self.entry_screen_caption)
+		# self.button_change_save_path = Button(self, text="Сделать скрин", command=lambda:InterfaceFuncs().make_screen(self))
+		# self.button_change_save_path.grid(row=3, column=0)
 
 	def start_key_listener(self):
 		self.listener = keyboard.Listener(on_press=self.on_keypress)
@@ -59,8 +69,6 @@ class PyScreenHelper(Tk):
 		if key == keyboard.Key.print_screen:
 
 			try:
-				logger.info("key pressed")
-
 				InterfaceFuncs().make_screen(self)
 
 			except Exception as e:

@@ -1,6 +1,7 @@
 from tkinter import Tk, HORIZONTAL, Label
 from tkinter import filedialog as fd
 from tkinter.ttk import Progressbar
+import tkinter.messagebox as mb
 
 import time
 import threading
@@ -11,13 +12,23 @@ from screenshot import Screenshot
 
 
 class InterfaceFuncs():
-	def change_save_path(self,label):
+	def save_settings(self, entry):
+		try:
+			settings.set_screen_caption(entry.get()) # Задать screen_caption в настройки
+		
+			settings.save_settings_to_file()
+			mb.showinfo("Сохранение", f"Настройки успешно сохранены:\n Инициалы: {entry.get()}")
+
+		except Exception as e:
+			logger.error(e)
+			mb.showerror("Ошибка", e)
+
+	def change_save_path(self, label):
 		try:
 			save_path = fd.askdirectory()
 			settings.set_save_path(save_path)
 			self.change_save_path_label(label)
 			settings.save_settings_to_file()
-			logger.info("Successfully change pass")
 		except Exception as e:
 			logger.error(e)
 
@@ -65,6 +76,9 @@ class InterfaceFuncs():
 
 	def change_save_path_label(self, label):
 		label.configure(text=settings.SAVE_PATH)
+
+	def change_screen_caption_entry(self, entry):
+		entry.insert(0, settings.SCREEN_CAPTION)
 
 	def close_program(self,root):
 			root.quit()
