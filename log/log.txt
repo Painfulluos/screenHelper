@@ -1,0 +1,81 @@
+|16_08_2023_075837|[INFO]:    save image
+|16_08_2023_075837|[INFO]:    get image name: screenshot_16_08_2023_075837.png
+|16_08_2023_075837|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_075900|[INFO]:    save image
+|16_08_2023_075900|[INFO]:    get image name: screenshot_16_08_2023_075900.png
+|16_08_2023_075900|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_075911|[INFO]:    save image
+|16_08_2023_075911|[INFO]:    get image name: screenshot_16_08_2023_075911.png
+|16_08_2023_075911|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_075913|[INFO]:    save image
+|16_08_2023_075913|[INFO]:    get image name: screenshot_16_08_2023_075913.png
+|16_08_2023_075913|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_075914|[INFO]:    save image
+|16_08_2023_075914|[INFO]:    get image name: screenshot_16_08_2023_075914.png
+|16_08_2023_075915|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_075940|[INFO]:    save image
+|16_08_2023_075940|[INFO]:    get image name: screenshot_16_08_2023_075940.png
+|16_08_2023_075940|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_075942|[INFO]:    save image
+|16_08_2023_075942|[INFO]:    get image name: screenshot_16_08_2023_075942.png
+|16_08_2023_075942|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_075958|[INFO]:    save image
+|16_08_2023_075958|[INFO]:    get image name: screenshot_16_08_2023_075958.png
+|16_08_2023_075958|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080045|[INFO]:    save image
+|16_08_2023_080046|[INFO]:    get image name: screenshot_16_08_2023_080046.png
+|16_08_2023_080046|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080047|[INFO]:    save image
+|16_08_2023_080047|[INFO]:    get image name: screenshot_16_08_2023_080047.png
+|16_08_2023_080047|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080058|[INFO]:    save image
+|16_08_2023_080058|[INFO]:    get image name: screenshot_16_08_2023_080058.png
+|16_08_2023_080058|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080100|[INFO]:    save image
+|16_08_2023_080100|[INFO]:    get image name: screenshot_16_08_2023_080100.png
+|16_08_2023_080100|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080102|[INFO]:    save image
+|16_08_2023_080102|[INFO]:    get image name: screenshot_16_08_2023_080102.png
+|16_08_2023_080102|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080117|[INFO]:    save image
+|16_08_2023_080117|[INFO]:    get image name: screenshot_16_08_2023_080117.png
+|16_08_2023_080117|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080118|[INFO]:    save image
+|16_08_2023_080118|[INFO]:    get image name: screenshot_16_08_2023_080118.png
+|16_08_2023_080118|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080127|[INFO]:    save image
+|16_08_2023_080128|[INFO]:    get image name: screenshot_16_08_2023_080128.png
+|16_08_2023_080128|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080129|[INFO]:    save image
+|16_08_2023_080129|[INFO]:    get image name: screenshot_16_08_2023_080129.png
+|16_08_2023_080129|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080157|[INFO]:    save image
+|16_08_2023_080157|[INFO]:    get image name: screenshot_16_08_2023_080157.png
+|16_08_2023_080157|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080215|[INFO]:    save image
+|16_08_2023_080215|[INFO]:    get image name: screenshot_16_08_2023_080215.png
+|16_08_2023_080215|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080224|[INFO]:    key pressed
+|16_08_2023_080224|[INFO]:    save image
+|16_08_2023_080224|[INFO]:    get image name: screenshot_16_08_2023_080224.png
+|16_08_2023_080224|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080231|[INFO]:    save image
+|16_08_2023_080231|[INFO]:    get image name: screenshot_16_08_2023_080231.png
+|16_08_2023_080231|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080240|[INFO]:    save image
+|16_08_2023_080240|[INFO]:    get image name: screenshot_16_08_2023_080240.png
+|16_08_2023_080241|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_080242|[INFO]:    save image
+|16_08_2023_080242|[INFO]:    get image name: screenshot_16_08_2023_080242.png
+|16_08_2023_080243|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_081455|[INFO]:    save image
+|16_08_2023_081455|[INFO]:    get image name: screenshot_16_08_2023_081455.png
+|16_08_2023_081455|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_082414|[INFO]:    key pressed
+|16_08_2023_082414|[INFO]:    save image
+|16_08_2023_082415|[INFO]:    get image name: screenshot_16_08_2023_082415.png
+|16_08_2023_082415|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
+|16_08_2023_082420|[INFO]:    key pressed
+|16_08_2023_082420|[INFO]:    save image
+|16_08_2023_082420|[INFO]:    get image name: screenshot_16_08_2023_082420.png
+|16_08_2023_082420|[INFO]:    Successfully saved to: C:/Users/PF/Desktop/test
